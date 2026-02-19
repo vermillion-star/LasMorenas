@@ -342,4 +342,28 @@ P{
 
 }
 
+@media (max-width: 768px) {
+
+    .header-content {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .header-txt {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .header-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-img img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+}
+
 

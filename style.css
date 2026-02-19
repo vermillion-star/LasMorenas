@@ -159,7 +159,7 @@ P{
 }
 .menu-icono{
     top:50%;
-    transform: translateY(-50);
+    transform: translateY(-50%);
 }
 
 .menu-icono::before {
@@ -314,4 +314,32 @@ P{
 
 
 }
+
+@media (max-width: 768px) {
+
+    .morenas-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .morenas-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .morenas-container img:last-child(1){
+        grid-column: span 1;
+    }
+
+     .morenas-container img:last-child{
+        grid-column: span 1;
+    }
+
+    .morenas-container{
+        margin: 0 auto;
+    }
+
+}
+
 
